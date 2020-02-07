@@ -362,6 +362,10 @@ footer {
         min-height: 100vh;
         padding: 100px 0;
     }
+
+    .contentBox {
+        padding-top: 2rem;
+    }
     .contentBox h1,
     .sec2 h2 {
         font-size: 2rem;
