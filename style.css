@@ -363,9 +363,11 @@ footer {
         padding: 100px 0;
     }
 
-    .contentBox {
+    .contentBox h1,
+    .contentBox p {
         margin-top: 5rem;
     }
+    
     .contentBox h1,
     .sec2 h2 {
         font-size: 2rem;
