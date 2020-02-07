@@ -346,17 +346,68 @@ footer {
     transition: ease-in-out;
 }
 
-@media (max-width: 575.98px) {
-    #home .contentBox h1 {
-        font-size: 2rem;
-        padding-top: 4rem;
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 }
 
-@media (max-width: 767.98px) {
-    #home .contentBox h1 {
+@media (max-width: 992px) {
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0;
+    }
+    .banner {
+        min-height: 100vh;
+        padding: 100px 0;
+    }
+    .contentBox h1,
+    .sec2 h2 {
         font-size: 2rem;
-        padding-top: 4rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .sec1 {
+        padding: 20px 0;
+    }
+    .headerText h2 {
+        font-size: 2rem;
+    }
+    .blog {
+        padding: 20px 0;
+    }
+    .blogpost .imgBx {
+        height: 200px;
+    }
+    .contact {
+        padding: 20px 0;
+    }
+    .contact .form-control {
+        height: 40px;
+        border: 1px solid #fff; 
+    }
+    .btnD1 {
+        padding: 10px 40px;  
+        margin-top: 10px; 
+    }
+    footer {
+        padding: 0px 0 20px;
+    }
+    .sci li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .sci li a {
+        color: #777;
+        font-size: 1.5rem;
+        transition: 0.5s; 
+    }
+    .sec2 {
+        height: auto;
+        padding: 40px 0;
     }
 }
 
