@@ -188,7 +188,7 @@ p {
     position: relative;
     background: url('https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 
 .sec2 h2 {
@@ -334,5 +334,28 @@ footer {
 
 .highlight {
     color: #e8491d;
+}
+
+#about {
+    height: 150vh;
+}
+
+.sec2 .collapse {
+    padding-top: 2rem;
+    transition: ease-in-out;
+}
+
+@media (max-width: 575.98px) {
+    #home .contentBox h1 {
+        font-size: 2rem;
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #home .contentBox h1 {
+        font-size: 2rem;
+        padding-top: 4rem;
+    }
 }
 
